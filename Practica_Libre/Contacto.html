@@ -1,0 +1,67 @@
+<!DOCTYPE html lang="es-ES">
+        <head>
+        	<meta charset="utf-8" />
+			<link  rel="icon"  href="img/favicon.png" />
+        	<title></title>
+        </head> 
+        <body>
+        	<header>
+        		<h1 align="center">Dani's Technologies / Contacto</h1>
+        		<div align="center"><img width="1240" height="400" src="img/contacta.jpg"></div><br />
+        		<section>
+					<nav id="menu">
+						<div id="menu" align="center">
+						<a href="PaginaPrincipal.html">Inicio</a> 
+						<a href="Detalle.html">Detalles</a> 
+						<a href="Contacto.html">Contacto</a>  
+						<a href="https://www.xataka.com/">Otros</a>
+						</div>
+					</nav>
+        		</section>
+			</header>
+			<section>
+				<form action="PaginaPrincipal.html" method="GET">
+					<fieldset>
+							<legend><font size="5.5"><b>¿Quieres hablar con nosotros?</b></font></legend>
+							<p>Nombre: <input type="text" name="name" autofocus required /></p>	
+							<p>Correo Electrónico: <input type="email" name="email" placeholder="Escribe aquí tu email" required /></p>
+							<p>Comentario:</p><textarea name="comments" cols="50" rows="10" required></textarea>
+							<fieldset>
+								<legend>Tipo de consulta:</legend>
+								<label><input type="radio" name="consulta" value="personal"> Personal</label>
+								<label><input type="radio" name="consulta" value="info_tec"> Información Tecnologíca</label>
+								<label><input type="radio" name="consulta" value="info_excl"> Información Exclusiva</label>
+								<label><input type="radio" name="consulta" value="otros_cons"> Otros</label>
+							</fieldset>
+							<fieldset>
+								<legend>Intereses:</legend>
+								<input type="checkbox" id="smartphones" name="smartphones" value="smartphones">
+								<label for="smartphones"> Smartphones</label>
+								<input type="checkbox" id="gaming" name="gaming" value="gaming">
+								<label for="gaming"> Gaming</label>
+								<input type="checkbox" id="tecnologia_general" name="tecnologia_general" value="tecnologia_general">
+								<label for="tecnologia_general"> Tecnologíca General</label>
+								<input type="checkbox" id="otros" name="otros" value="otros_int">
+								<label for="otros"> Otros</label>
+							</fieldset>
+							<p><label for="provincia">De donde eres:</label>
+								<select name="provincia" id="provincia">
+									<option value="sevilla">España</option>
+									<option value="cadiz">Mexico</option>
+									<option value="malaga">Peru</option>
+									<option value="cordoba">Andorra</option>
+									<option value="granada">País no hispano</option>
+									<option value="jaen">Argentina</option>
+									<option value="almeria">Otro país hispano</option>
+								</select></p>
+							<p><input type="submit" value="Enviar" /> <input type="reset" value="Reset"></p>
+							<a href="PaginaPrincipal.html"><img src="img/flecha.png" href="PaginaPrincipal.html" width="20" height="20"></a> 
+					</fieldset>
+				</form>
+			</section>
+        	<hr/>
+        	<footer>
+        	<p align="center"><b>&#169; Copyright Dani's Technologies 2021</b></p>
+        	</footer>
+        </body> 
+</html> 
