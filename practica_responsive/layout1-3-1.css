@@ -1,0 +1,150 @@
+/*Daniel Alvarez Peral */
+
+@media only screen and (min-width: 751px) { /*Que lo aplique si tiene como minimo 751px*/
+
+html, body {
+    width: 100%; 
+    height: 100%; /*Le decimos que ocupe el 100% de la pagina*/
+}
+body{
+    display: flex; /*Usamos el flex en el body para que se adapte el contenido del body*/
+    flex-direction: column;
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
+
+header{
+    background-color: gray;
+    width: 100%;
+    height: 20%;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row; /*Le decimos la direccion en la que se va agrupar el flex*/
+    flex-grow: 1;
+    background-color:orange;
+    width: 100%;
+    height: 100%;
+}
+
+.izquierda{
+    background-color:orange;
+    width: 20%; /*Le ponemos al % de pagina a   l que se tiene que adaptar*/
+    float: left; /*La posicion que va a ocupar en el bloque*/
+    border-color: white;
+    border-style: groove;
+    margin-right: 1%;
+    border-width: 0.15em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.centro{
+    background-color: rgb(118, 226, 118);
+    width: 60%; /*Le ponemos al % de pagina al que se tiene que adaptar*/
+    border-color: white;
+    border-style: groove;
+    border-width: 0.15em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+
+}
+
+.derecha{
+    background-color:orange;
+    width: 20%; /*Le ponemos al % de pagina al que se tiene que adaptar*/
+    float: right; /*La posicion que va a ocupar en el bloque*/
+    border-color: white;
+    border-style: groove;
+    margin-left : 1%;
+    border-width: 0.15em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+
+}
+
+footer{
+    background-color: blue;
+    width: 100%;
+    height: 20%;
+}
+
+}
+
+@media only screen and (max-width: 750px) { /*Le decimos que lo aplique si tiene como maximo 750px*/
+
+    html, body {
+        width: 100%; 
+        height: 100%; /*Le decimos que ocupe el 100% de la pagina*/
+    }
+    body{
+        display: flex; /*Usamos el flex en el body para que se adapte el contenido del body*/
+        flex-direction: column;
+    }
+    
+    header, main, footer {
+        flex-shrink: 0;
+    }
+    
+    header{
+        background-color: gray;
+        width: 100%;
+        height: 20%;
+    }
+    
+    .principal{
+        display: flex;
+        flex-direction: column; /*Le decimos la direccion en la que se va agrupar el flex*/
+        flex-grow: 1;
+        background-color:orange;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .izquierda{
+        background-color:orange;
+        width: 100%; /*Le ponemos al % de pagina a   l que se tiene que adaptar*/
+        border-style: groove;
+        border-color: white;
+        text-align: center;
+        border-width: 0.15em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        height: 20%;
+    }
+    
+    .centro{
+        background-color: rgb(118, 226, 118);
+        width: 100%; /*Le ponemos al % de pagina a   l que se tiene que adaptar*/
+        border-color: white;
+        text-align: center;
+        border-style: groove;
+        border-width: 0.15em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        height: 60%;
+    
+    }
+    
+    .derecha{
+        background-color:orange;
+        width: 100%; /*Le ponemos al % de pagina a   l que se tiene que adaptar*/
+        border-style: groove;
+        border-color: white;
+        text-align: center; 
+        border-width: 0.15em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        height: 20%;
+    }
+    
+    footer{
+        background-color: blue;
+        width: 100%;
+        height: 20%;
+    }
+
+}
