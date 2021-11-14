@@ -1,0 +1,68 @@
+header h1 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.horizontal {
+    clear: both;
+    background-color: goldenrod;
+    float: left; /*Se tiene que posicionar a la izquierda*/
+    width: 100%;
+    border-left: 1px solid #7C7C7C;
+}
+
+.horizontal li {
+    float: left; /*Se tiene que posicionar a la izquierda*/
+    margin-bottom: 1em;
+    list-style: none; /*Quitamos el estilo de lista y desaparecen los puntos*/
+    border:0.5px solid #000000;
+}  
+.horizontal li a {
+    padding: .3em;
+    display: block;
+    text-decoration: none; /*Quitamos el subrayado de los enlaces y toda la decoracion del texto a palabra*/
+    color: #333;
+    background: #F4F4F4;
+    
+}
+.horizontal li a:hover {
+    padding: .3em;
+    display: block;
+    text-decoration: none; /*Quitamos el subrayado de los enlaces y toda la decoracion del texto a palabra*/
+    color: #fff;
+    font-weight: bold;
+    background: #202020;
+}
+
+.vertical {
+    margin-top: 2em;
+    background-color: aqua;
+    float: right; /*Se tiene que posicionar a la derecha*/
+    width: 100%;
+    list-style: none; /*Quitamos el estilo de lista y desaparecen los puntos*/
+    border: 1px solid #7C7C7C;
+}
+
+.vertical li {
+    border:0.5px solid #000000;
+    width: 180px;
+    list-style: none;
+    background: #F4F4F4;
+}
+
+.vertical li a {
+    padding: .2em 0 .2em .5em;
+    display:block;
+    text-decoration: none; /*Quitamos el subrayado de los enlaces y toda la decoracion del texto a palabra*/
+    color: #333;
+}
+.vertical li a:hover { /*Cuando pase con el raton por encima se aplicaran estas funciones*/
+    padding: .2em 0 .2em .5em;
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background: #202020;
+}
+    
+    
