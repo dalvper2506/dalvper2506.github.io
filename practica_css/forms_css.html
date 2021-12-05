@@ -1,0 +1,120 @@
+<!DOCTYPE html lang="es-ES">
+        <head>
+        	<meta charset="utf-8" />
+        	<title>Formulario con estilos de CSS</title>
+            <link rel="stylesheet" href="styles_forms.css">
+        </head> 
+        <body>
+        	<header>
+        		<h1>Formulario con estilos de CSS</h1>
+        	</header>
+            <section id="corpt">
+        	    <h2>¿Quien hace los formularios?</h2>
+                <p>Nuestro equipo corporativo se encarga de realizar todas las tareas de diseño y formularios, <br />
+                    tenemos un gran número de profesionales encargados de la realización de toda la web desde el <br />
+                    fronted al backend, diseño y desarollo e incluso del apartado de expresión y ortografia para <br />
+                    aportar la mejor experiencia al usuario.</p>
+                    <img src="imagen_corporativa.png" /><br />
+            </section>
+            <h2>Formularios 2</h2>
+        	<form action="../muchas_gracias.html" method="GET">
+                <section class="primera_parte">
+                    <h3>Tus datos: </h3>
+                    <section id="important">
+                        <p>Nombre: <input type="text" name="name" autofocus required /></p>	
+                        <p>Correo Electrónico: <input type="email" name="email" required /></p>
+                        <p>URL: <input type="url"  name="url" placeholder="Escribr aquí la URL de tu Página Web"  /></p>
+                    </section>
+                    <p>Fecha: <input type="date" name="date" /></p>
+                    <p>Tiempo: <input type="time" name="time" /></p>
+                    <p>Fecha y hora: <input type="datetime-local" name="date-time" /></p>
+                    <p>Mes: <input type="month" name="month" /></p>
+                    <p>Semana: <input type="week" name="week" /></p>
+                    <p>Numero (min -10, max 10): <input type="number" name="number_10-10" min="-10" max="10" value="0" /></p>
+                    <p>Telefono: <input type="tel" name="telefono"  /></p>
+                    <p>Termino de busqueda: <input type="search" name="search" /></p>
+                    <p>Color favorito: <input type="color" name="color" /></p>
+                    <br />
+                </section>
+                <br />
+                <section class="segunda_parte">
+                    <fieldset>
+                        <legend>Color de pelo:</legend>
+                        <label><input type="radio" name="color_pelo" value="moreno"> Moreno</label>
+                        <label><input type="radio" name="color_pelo" value="rubio"> Rubio</label>
+                        <label><input type="radio" name="color_pelo" value="negro"> Negro</label>
+                        <label><input type="radio" name="color_pelo" value="pelirrojo"> Pelirrojo</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Origen:</legend>
+                        <label><input type="radio" name="origen" value="espana"> España</label>
+                        <label><input type="radio" name="origen" value="extranjero"> Extranjero</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Navegadores:</legend>
+                        <input type="checkbox" id="firefox" name="firefox" value="firefox">
+                        <label for="firefox"> Firefox</label>
+                        <input type="checkbox" id="chrome" name="chrome" value="chrome">
+                        <label for="chrome"> Chrome</label>
+                        <input type="checkbox" id="opera" name="opera" value="opera">
+                        <label for="opera"> Opera</label>
+                        <input type="checkbox" id="edge" name="edge" value="edge">
+                        <label for="edge"> Microsoft Edge</label>
+                    </fieldset>
+                    <p><label for="provincia">Cual es tu provincia:</label>
+                        <select name="provincia" id="provincia">
+                            <option value="sevilla">Sevilla</option>
+                            <option value="cadiz">Cadiz</option>
+                            <option value="malaga">Malaga</option>
+                            <option value="cordoba">Cordoba</option>
+                            <option value="granada">Granada</option>
+                            <option value="jaen">Jaen</option>
+                            <option value="almeria">Almeria</option>
+                        </select></p>
+                        <label for="paswd">Contraseña:</label><input type="password" id="paswd" name="paswd" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" >
+        
+                    <p><input type="submit" value="Enviar" /> <input type="reset" value="Reset"></p>
+
+                </section>
+             </form>
+             <section class="ultimo">
+                 <p id="ultimo_uno">Un formulario es un documento, físico o digital, elaborado para que un usuario <br />
+                introduzca datos estructurados (nombres, apellidos, dirección, fecha , etc.)  en las zonas <br />
+                correspondientes, para ser almacenados y procesados posteriormente.</p>
+                 <p id="ultimo_dos">Esto ayuda a que diferentes instancias registren datos personales de quien los
+                llena para posteriormente ser acreedor al servicio solicitado, siempre y cuando, los datos sean 
+                llenados correctamente. </p>
+            <h2>Utilizando Nowrap</h2>
+                <p class="now_parrafo">
+                    En informática, un formulario consta de un conjunto de 
+                    Campos de datos solicitados por un determinado programa, 
+                    los cuales se pueden almacenar para su procesamiento y uso. 
+                    Cada campo debe albergar un dato específico, por ejemplo
+                </p>
+
+                <h2>Utilizando Normal</h2>
+                <p class="norm_parrafo">
+                    En Internet y sistemas informáticos, los formularios pueden
+                    ser llenados en línea, con validación de datos, y son muy 
+                    útiles para registrar usuarios, realizar encuestas, acceder 
+                    a sistemas restringidos, etc. Los formularios por Internet .
+                </p>
+
+                <h2>Utilizando Pre</h2>
+                <p class="pre_parrafo">
+                    En matemáticas, también se conoce como formulario a un compendio 
+                    de fórmulas matemáticas o algebraicas, pertenecientes a una o mas 
+                    categorías, que sirve de guía o recordatorio para el momento de 
+                    aplicarlas como por ejemplo los calculos trigonometricos de cifras.
+                </p>
+                <a id="enlace_1" href="https://cutt.ly/kR7vOCG">Mas información formularios</a><br/>
+                <a id="enlace_2" href="https://cutt.ly/dR7vL36">Como hacer formularios en Word</a><br/>
+                <img id="enlace_3_img" src="check.ico"><a href="https://cutt.ly/wR7vM9C">No sabes que hacer, entra aquí</a><br><br/>
+                <button id="enlace_4" href="https://cutt.ly/PR7v6It">Ultimas noticia</button>
+             </section>
+        	<hr/>
+        	<footer>
+        	<p>&#169;Página de Dani 1º ASIR</p>
+        	</footer>
+        </body> 
+</html> 

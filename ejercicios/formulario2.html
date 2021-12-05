@@ -1,0 +1,68 @@
+<!DOCTYPE html lang="es-ES">
+        <head>
+        	<meta charset="utf-8" />
+        	<title>LMSGE - Ejercicios</title>
+        </head> 
+        <body>
+        	<header>
+        		<h1>Ejercicio Formularios 2 de Daniel </h1>
+        	</header>
+        	<h2>Formularios 2</h2>
+        	<section></section>
+        	<form action="muchas_gracias.html" method="GET">
+                <strong>Tus datos: </strong>
+                <p>Nombre: <input type="text" name="name" autofocus required /></p>	
+                <p>Correo Electrónico: <input type="email" name="email" required /></p>
+                <p>URL: <input type="url"  name="url" placeholder="Escribr aquí la URL de tu Página Web"  /></p>
+                <p>Fecha: <input type="date" name="date" /></p>
+                <p>Tiempo: <input type="time" name="time" /></p>
+                <p>Fecha y hora: <input type="datetime-local" name="date-time" /></p>
+                <p>Mes: <input type="month" name="month" /></p>
+                <p>Semana: <input type="week" name="week" /></p>
+				<p>Numero (min -10, max 10): <input type="number" name="number_10-10" min="-10" max="10" value="0" /></p>
+				<p>Telefono: <input type="tel" name="telefono"  /></p>
+				<p>Termino de busqueda: <input type="search" name="search" /></p>
+				<p>Color favorito: <input type="color" name="color" /></p>
+				<fieldset>
+					<legend>Color de pelo:</legend>
+					<label><input type="radio" name="color_pelo" value="moreno"> Moreno</label>
+					<label><input type="radio" name="color_pelo" value="rubio"> Rubio</label>
+					<label><input type="radio" name="color_pelo" value="negro"> Negro</label>
+					<label><input type="radio" name="color_pelo" value="pelirrojo"> Pelirrojo</label>
+				</fieldset>
+				<fieldset>
+					<legend>Origen:</legend>
+					<label><input type="radio" name="origen" value="espana"> España</label>
+					<label><input type="radio" name="origen" value="extranjero"> Extranjero</label>
+				</fieldset>
+				<fieldset>
+					<legend>Navegadores:</legend>
+					<input type="checkbox" id="firefox" name="firefox" value="firefox">
+					<label for="firefox"> Firefox</label>
+					<input type="checkbox" id="chrome" name="chrome" value="chrome">
+					<label for="chrome"> Chrome</label>
+					<input type="checkbox" id="opera" name="opera" value="opera">
+					<label for="opera"> Opera</label>
+					<input type="checkbox" id="edge" name="edge" value="edge">
+					<label for="edge"> Microsoft Edge</label>
+				</fieldset>
+				<p><label for="provincia">Cual es tu provincia:</label>
+					<select name="provincia" id="provincia">
+						<option value="sevilla">Sevilla</option>
+						<option value="cadiz">Cadiz</option>
+						<option value="malaga">Malaga</option>
+						<option value="cordoba">Cordoba</option>
+						<option value="granada">Granada</option>
+						<option value="jaen">Jaen</option>
+						<option value="almeria">Almeria</option>
+					</select></p>
+					<label for="paswd">Contraseña:</label><input type="password" id="paswd" name="paswd" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" >
+	
+				<p><input type="submit" value="Enviar" /> <input type="reset" value="Reset"></p>
+             </form>
+        	<hr/>
+        	<footer>
+        	<p align="center"><b>&#169;Página de Dani 1º ASIR</b></p>
+        	</footer>
+        </body> 
+</html> 
