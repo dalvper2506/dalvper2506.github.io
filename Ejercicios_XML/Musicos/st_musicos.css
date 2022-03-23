@@ -1,0 +1,37 @@
+musicos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 192, 192);
+}
+musico {
+    background-color: goldenrod;
+    margin:1em;
+    text-align: center;
+}
+nombre{
+    font-size:20pt;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+apodo{
+    color: rgb(255, 65, 65);
+    font-size:18pt;
+    font-style: Italic;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+}
+
+fechaNacimiento {
+    font-size:15pt;
+    font-style: Italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+}
+
+cancion {
+    color: rgb(255, 255, 255);
+    font-size:13pt;
+    font-style: Italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}

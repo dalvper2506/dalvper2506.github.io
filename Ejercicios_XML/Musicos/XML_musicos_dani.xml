@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE musicos [
+  <!ELEMENT musicos (musico*)>
+  <!ELEMENT musico ((nombre, apodo), fechaNacimiento, cancion+)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apodo (#PCDATA)>
+  <!ELEMENT fechaNacimiento (#PCDATA)>
+  <!ELEMENT cancion ANY>
+  <!ATTLIST musico codigo ID #REQUIRED>
+  <!ATTLIST cancion anioAlbum CDATA "Undefined">
+]>
+<?xml-stylesheet href="st_musicos.css" type="text/css"?>
+<musicos>
+  <musico codigo="C1">
+    <nombre>Benito Antonio Martínez Ocasio</nombre>
+    <apodo>Bad Bunny</apodo>
+    <fechaNacimiento> 10 de marzo de 2080</fechaNacimiento>
+    <cancion anioAlbum="2019">Yonaguni</cancion>
+    <cancion>Me pide leche Rmx</cancion>
+  </musico>
+  <musico codigo="C2">
+    <nombre>Emmanuel Gazmey Santiago</nombre>
+    <apodo>Anuel</apodo>
+    <fechaNacimiento> 10 de marzo de 2023</fechaNacimiento>
+    <cancion anioAlbum="2022">North Carolina</cancion>
+    <cancion>Me pide leche Rmx</cancion>
+  </musico>
+  <musico codigo="C6">
+    <nombre>Eladio Carrion</nombre>
+    <apodo>Eladio Carrion</apodo>
+    <fechaNacimiento>5 de abril de 2015</fechaNacimiento>
+    <cancion anioAlbum="2022">North Carolina</cancion>
+    <cancion>Sauce Boy</cancion>
+  </musico>
+  <musico codigo="C4">
+    <nombre>Alvin (Alvin y las ardillas)</nombre>
+    <apodo>Alvin Fboy</apodo>
+    <fechaNacimiento>18 de marzo de 2081</fechaNacimiento>
+    <cancion>A Pesar De Mí</cancion>
+    <cancion anioAlbum="2007">Papa dios me Dijo</cancion>
+  </musico>
+  <musico codigo="C7">
+    <nombre>Andresito</nombre>
+    <apodo>Lil Bokeron</apodo>
+    <fechaNacimiento>20 de junio de 3000</fechaNacimiento>
+    <cancion>Versos Perversos</cancion>
+    <cancion anioAlbum="2014">Repartiendo leña</cancion>
+    <cancion anioAlbum="2009">Dime tu Secleto</cancion>
+  </musico>
+  <musico codigo="C5">
+    <nombre>José Luis Cantero Rada</nombre>
+    <apodo>El Fary</apodo>
+    <fechaNacimiento>5 de marzo de 1937</fechaNacimiento>
+    <cancion anioAlbum="1980">La mandaga</cancion>
+    <cancion>Torito Guapo</cancion>
+  </musico>
+  <musico codigo="C10">
+    <nombre>Alvaro Soto</nombre>
+    <apodo>Soto Asa</apodo>
+    <fechaNacimiento>5 de marzo de 3000</fechaNacimiento>
+    <cancion anioAlbum="2019">Me gustaron sus nai</cancion>
+    <cancion>Mansouri</cancion>
+  </musico>
+  <musico codigo="C9">
+    <nombre>Fernando Beef</nombre>
+    <apodo>Yung Beef</apodo>
+    <fechaNacimiento>5 de marzo de 1900</fechaNacimiento>
+    <cancion>La mandaga</cancion>
+    <cancion anioAlbum="2020">Effy</cancion>
+  </musico>
+  <musico codigo="C8">
+    <nombre>Cameron Jibril Thomaz</nombre>
+    <apodo>Wiz Khalifa</apodo>
+    <fechaNacimiento>5 de marzo de 1876</fechaNacimiento>
+    <cancion anioAlbum="2010">Black and Yellow</cancion>
+    <cancion anioAlbum="2010">Young and Wild</cancion>
+  </musico>
+  <musico codigo="C3">
+    <nombre>Pedro La Droga</nombre>
+    <apodo>Peter Griffa</apodo>
+    <fechaNacimiento>5 de marzo de 2081</fechaNacimiento>
+    <cancion anioAlbum="2018">EsquizoGang</cancion>
+    <cancion>De after</cancion>
+  </musico>
+</musicos>
