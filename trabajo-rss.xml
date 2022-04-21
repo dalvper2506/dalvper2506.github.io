@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+    <title>Repositorio Dalvper</title>
+    <link>https://dalvper2506.github.io/</link>
+    <description>Repositorio de Daniel Alvarez Peral.</description>
+    <category>Ejercicios HTML, CSS y XML</category>
+    <language>es</language>
+    <item>
+        <title>Ejercicios tablas</title>
+        <link>https://dalvper2506.github.io/ejercicios/tablas.html</link>
+        <description>Ejercicio de tablas (HTML)</description>
+        <pubDate>Wed, 20 Apr 2022 05:16:01 +0200</pubDate>
+        <category>HTML</category>
+    </item>
+    <item>
+        <title>Ejercicio Formulario 2</title>
+        <link>https://dalvper2506.github.io/ejercicios/formulario2.html</link>
+        <description>Ejercicio de Formulario 2 (HTML)</description>
+        <pubDate>Thu, 21 Apr 2022 08:16:01 +0200</pubDate>
+        <category>HTML</category>
+    </item>
+    <item>
+        <title>Practica libre</title>
+        <link>https://dalvper2506.github.io/practica_Libre/PaginaPrincipal.html</link>
+        <description>Practica con tematica libre (HTML)</description>
+        <pubDate>Thu, 21 Apr 2022 05:16:01 +0200</pubDate>
+        <category>HTML</category>
+    </item>
+    <item>
+        <title>Practica Responsive</title>
+        <link>https://dalvper2506.github.io/practica_responsive/layout.html</link>
+        <description>Practica realizar Web Responsive (HTML+CSS)</description>
+        <pubDate>Wed, 20 Apr 2022 11:16:01 +0200</pubDate>
+        <category>HTML y CSS</category>
+    </item>
+    <item>
+        <title>Practica Web Completa</title>
+        <link>https://dalvper2506.github.io/ultima_practica_CSS/practicaCSS2.html</link>
+        <description>Practica Final Web Completa Responsive (HTML+CSS)</description>
+        <pubDate>Thu, 21 Apr 2022 08:16:01 +0200</pubDate>
+        <category>HTML y CSS</category>
+    </item>
+    <item>
+        <title>Practica Musicos XML</title>
+        <link>https://dalvper2506.github.io/Ejercicios_XML/Musicos/</link>
+        <description>Practica Musicos(XML+CSS)</description>
+        <pubDate>Thu, 21 Apr 2022 09:16:01 +0200</pubDate>
+        <category>XML y CSS</category>
+    </item>
+    </channel>
+</rss>
