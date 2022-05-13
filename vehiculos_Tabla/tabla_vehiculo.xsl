@@ -171,7 +171,7 @@
                     </tr>
                     <xsl:for-each select="vehiculos/vehiculo">
                     <xsl:sort select="precio" order="descending" data-type="number"/>
-                    <xsl:if test="position()=1">
+                    <xsl:if test="position() &lt; 4">
                     <tr>
                         <td>
                             <xsl:value-of select="marca"/>
